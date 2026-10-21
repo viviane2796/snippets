@@ -1,0 +1,61 @@
+
+body{
+
+margin: 0;
+padding: 0;
+
+}
+header{
+
+background-color: green;
+height:150px;
+color:white
+
+
+}
+
+.headerWrap{
+
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.headerLogo{
+
+    width: 30%;
+}
+
+nav{
+
+  
+}
+
+
+ul {
+
+list-style-type: none;
+background-color: #333333;
+overflow: hidden;
+margin: 0;
+
+
+}
+
+ul li{
+    float: left;
+    
+
+}
+
+ul li a {
+display: block;
+    color: white;
+    text-align: center;
+    padding:20px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: green;
+}
